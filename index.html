@@ -1,133 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-
 	<head>
 		<meta charset="UTF-8">
 		<title>Tesla</title>
-	</head>
-
+		<link rel="stylesheet" href="./fonts.css">
+		<link rel="stylesheet" href="./style.css">
 	<body>
 		<header class="header">
 			<div class="header__logo">
-				<img src=""> <!-- tesla logo pic in header -->
+				<img src="" class="logo__image" alt="tesla logo">
 			</div>
 			<nav class="header__menu">
 				<div class="menu__middle">
-					<a href="#" class="memu__item">Model S</a>
-					<a href="#" class="menu__item">Model X</a>
-					<a href="#" class="menu__item">Model 3</a>
-					<a href="#" class="menu__item">Roadster</a>
-					<a href="#" class="menu__item">Energy</a>
+					<a href="#" class="memu__item_red-one">Model S</a>
+					<a href="#" class="menu__item_black-one ">Model X</a>
+					<a href="#" class="menu__item_black-two ">Model 3</a>
+					<a href="#" class="menu__item_black-three ">Roadster</a>
+					<a href="#" class="menu__item_black-four ">Energy</a>
 				</div>
 			</nav>
 			<nav class="header__menu">
 				<div class="menu__right">
-					<a href="#" class="menu__item">Магазин</a>
-					<a href="#" class="menu__item">Войти</a>
-					<a href="#" class="menu__item"> <!-- burger icon --> </a>
+					<a href="#" class="menu__item_shop">Магазин</a>
+					<a href="#" class="menu__item_entrance">Войти</a>
+					<div class="menu__burger">
+						<div class="burger__line-first"></div>
+						<div class="burger__line-second"></div>
+						<div class="burger__line-third"></div>
+					</div>
 				</div>
 			</nav>
 		</header>
-		<main>
-			<section class="first">
-				<div>
-					<h1>Model S</h1>
-					<p>Добро пожаловать в будущее!</p>
+		<main class="main">
+			<section class="first-block">
+				<div class="main__itro-page">
+					<h1 class="intro-page__title">Model S</h1>
+					<p class="intro-page__subtitle">Добро пожаловать в будущее!</p>
 				</div>
-				<div class=""> <!-- tesla logo background -->
-					<img src="">
+				<div class="main__logo">
+					<img src="" class="logo__image-background" alt="tesla logo">
 				</div>
-				<div class="">
-					<img src=""> <!-- tesla car pic main -->
+				<div class="first-block__tesla">
+					<img src="" class="tesla-picture" alt="tesla model s">
 				</div>
-				<div class="">
-					<div class=""> 
-						<p>2,7 <span>сек</span></p>
-						<p>0-100 км/час</p>
-					</div> <!-- speed first icon -->
-					<div class="">
-						<p>632 <span>км</span></p>
-						<p>запас хода</p>
-					</div> <!-- distance second icon -->
-					<div class="">
-						<p>Тест драйв</p>
-					</div> <!-- test drive third icon -->
-					<div class="">
-						<form>
-							<button>Заказать</button>
-						</form>
+				<div class="first-block__row">
+					<div class="row__desc">
+						<img src="" class="desc__img-speed"> 
+						<p class="desc__number">2,7 <span class="desc__item">сек</span></p>
+						<p class="desc__info">0-100 км/час</p>
 					</div>
-					<div class=""></div> <!-- arrow element  -->
-				</div> <!-- the whole bottom icons and titels -->
-			</section>
-
-			<section class="second">
-				<div>
-					<h1>Model S</h1>
-					<img src=""> <!-- tesla wheel pic -->
-				</div>
-				<div class="">
-					<h2>Будущее вождения</h2>
-					<p>Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
-					<div class="">
-						<p>17 <span>дюймов</span></p>
-						<p>Большой дисплей</p>
-					</div> 
-					<div class="">
-						<p>Беспроводное обновление ПО</p>
-						<p>Повышенная функциональность</p>
+					<div class="row__desc">
+						<img src="" class="desc__img-distance">
+						<p class="desc__number">632 <span class="desc__item">км</span></p>
+						<p class="desc_info">запас хода</p>
 					</div>
-					<div class="">
-						<p>894 <span>литра</span></p>
-						<p>Объем грузового пространства</p>
-					</div><!-- three points below the text -->
-
-					<div class="">
-						<p>УЗНАТЬ БОЛЬШЕ</p>
+					<div class="row__test-drive-desc">
+						<img src="" class="test-drive-desc__img">
+						<p class="test-drive-desc__info">Тест драйв</p>
 					</div>
-					<div class="">
-						<form>
-							<button>Заказать</button>
-						</form>
+					<div class="row__button">
+						<form class="row__button-form">
+							<button class="row__button-order">Заказать</button>
+						</form> 
+					</div>
+					<div class="first-block__row_arrow">
+						<img src="">
 					</div>
 				</div>
 			</section>
 
-			<section class="third">
-				<div>
-					<h2>Самый безопасный автомобиль в мир</h2>
-					<p>Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
-					<div class="">
-						<h2>Оценка защиты:</h2>
-						<p>Спереди </p>
-						<p>Сбоку</p>
-						<p>Сбоку <span>(стойка)</span></p>
-						<p>Водитель</p>
-						<p>Пассажир</p>
-					</div> <!-- place for ranking -->
-					<div class="">
-						<p>5 звезд</p>
-						<p>безопасности</p>
-					</div>
-					<div>
-						<p>УЗНАТЬ БОЛЬШЕ</p>
-						<form>
-							<button>Заказать</button>
-						</form>
-					</div>
+			<section class="second-block">
+				<div class="second-block__backgroung">
+					<h1 class="second-block__backgroung_title">Model S</h1>
+					<img src="" class="second-block__image"  alt="tesla iside wheel">
 				</div>
-				<div class="">
-					<p>Model S</p>
-					<img src="">
-					<p>Защита от удара спереди</p>
-					<p>Защита от удара сбоку</p>
-					<p>Защита от удара сбоку</p>
+				<div class="second-block__info">
+					<aside class="second-block__info-aside">
+						<h2 class="info-aside__title">Будущее вождения</h2>
+						<p class="info-aside__desc">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
+						<div class="info-aside__desc-fisrt-item">
+							<p class="desc-first-item__number">17 <span class="desc-first-item__value">дюймов</span></p>
+							<p class="desc-first-item__info">Большой дисплей</p>
+						</div> 
+						<div class="info-aside__desc-second-item">
+							<p class="desc-second-item__info">Беспроводное обновление ПО</p>
+							<p class="desc-second-item__info-subtitle">Повышенная функциональность</p>
+						</div>
+						<div class="info-aside__desc-third-item">
+							<p class="desc-third-item__number">894 <span class="desc-third-item_value">литра</span></p>
+							<p class="desc-third-item__info">Объем грузового пространства</p>
+						</div>
+						<div class="info-aside__buttons">
+							<form class="button-form">
+								<button class="button-more">УЗНАТЬ БОЛЬШЕ</button>
+							</form>
+							<form class="button-form">
+								<button class="button-order">Заказать</button>
+							</form>
+						</div>
+					</aside>	
 				</div>
-				<div>
-					
-				</div> <!-- icon WHS -->
+			</section>
+
+			<section class="third-block">
+				<div class="third-block__info">
+					<aside class="third-block__info-aside">
+						<h2 class="info-aside__title">Самый безопасный автомобиль в мир</h2>
+						<p class="info-aside__desc">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
+						<div class="info-aside__rank">
+							<h2 class="rank-title">Оценка защиты:</h2>
+							<p class="rank-item">Спереди </p>
+								<img src="" class="star-img">
+							<p class="rank-item">Сбоку</p>
+							<p class="rank-item">Сбоку <span class="rank-item-add">(стойка)</span></p>
+							<p class="rank-item">Водитель</p>
+							<p class="rank-item">Пассажир</p>
+						</div>
+
+						<div class="info-aside__rank-total">
+							<img src="" class="rank-total-img">
+							<p class="rank-total__first">5 звезд</p>
+							<p class="rank-total__second">безопасности</p>
+						</div>
+						<div class="info-aside__buttons">
+							<form class="button-form">
+								<button class="button-more">УЗНАТЬ БОЛЬШЕ</button>
+							</form>
+							<form class="button-from">
+								<button class="button-order">Заказать</button>
+							</form>
+						</div>
+					</aside>	
+					</div>
+					<div class="third-block__info-main">
+						<p class="info-main__title-background">Model S</p>
+						<img src="" class="info-main-tesla" alt="tesla protection">
+						<p class="info-main__point-one">Защита от удара спереди</p>
+						<p class="info-main__point-two">Защита от удара сбоку</p>
+						<p class="info-main__point-three">Защита от удара сбоку</p>
+					</div>
+				<div class="third-block__whs">
+					<img src="" class="whs__icon" alt="WHS icon">
+				</div>
 			</section>
 		</main>
 	</body>
-
 </html>
