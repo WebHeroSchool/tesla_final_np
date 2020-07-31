@@ -1,3 +1,94 @@
-*{
-	font-family: "Montserrat-Bold", sans-serif;
+.menu__item{
+	font-family: "Montserrat-Regular", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 18px;
+	color: #000000;
+}
+
+.menu__item_red{
+	color: #E51937;
+}
+
+.heading__title{
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 90px;
+	line-height: 110px;
+	color: #000000;
+}
+
+.heading__captiion{
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	color: #000000;
+}
+
+.info__row-value{
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.info__row-number{
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 43px;
+	color: #000000;
+}
+
+.info__row-add{
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	color: #000000;
+}
+
+.test-drive{
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.row-button__order{
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #E51937;
+}
+
+.aside__titel{
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 37px;
+}
+
+.aside__desc{
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
 }
