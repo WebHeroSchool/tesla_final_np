@@ -1,3 +1,12 @@
+.burger-line{
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	width: 24px;
+	height: 2px;
+	background-color: #E51937;
+	margin: 4px 0;
+}
+
 .menu__item{
 	font-family: "Montserrat-Regular", sans-serif;
 	font-style: normal;
@@ -12,7 +21,7 @@
 }
 
 .heading__title{
-	font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat-Regular", sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 90px;
@@ -21,7 +30,7 @@
 }
 
 .heading__captiion{
-	font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat-Regular", sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 15px;
@@ -30,7 +39,7 @@
 }
 
 .info__row-value{
-	font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat-Regular", sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 20px;
@@ -39,7 +48,7 @@
 }
 
 .info__row-number{
-	font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat-Regular", sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 35px;
@@ -48,7 +57,7 @@
 }
 
 .info__row-add{
-	font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat-Regular", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 12px;
@@ -57,7 +66,7 @@
 }
 
 .test-drive{
-	font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat-Regular", sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 13px;
@@ -67,7 +76,7 @@
 }
 
 .row-button__order{
-	font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat-Regular", sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 13px;
@@ -78,7 +87,7 @@
 }
 
 .aside__titel{
-	font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat-Regular", sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 30px;
@@ -86,9 +95,26 @@
 }
 
 .aside__desc{
-	font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat-Regular", sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 15px;
 	line-height: 18px;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu_icon-burger{
+/*	display: flex;
+	justify-content: space-between;
+	align-items: center;*/
+position: absolute;
+width: 24px;
+height: 15px;
+left: 1356px;
+top: 42px;
 }
