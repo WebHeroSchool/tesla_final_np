@@ -108,13 +108,39 @@
 	align-items: center;
 }
 
-.menu_icon-burger{
-/*	display: flex;
+.menu__right{
+	display: flex;
 	justify-content: space-between;
-	align-items: center;*/
-position: absolute;
-width: 24px;
-height: 15px;
-left: 1356px;
-top: 42px;
+	align-items: center;
+}
+
+.menu__item_shop{
+	right: 30px ;
+}
+
+.menu__item_enter{
+	right: 30px; 
+}
+
+.section__first{
+
+}
+
+.heading__captiion{
+	font-family: "Montserrat-Regular", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px; /*не работает шрифт*/
+}
+
+.button__order{
+	font-family: "Montserrat-Regular", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #E51937;
 }
