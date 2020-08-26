@@ -34,7 +34,7 @@
   font-weight: 600;
   font-size: 90px;
   line-height: 110px;
-  color: #000000;
+  color: hsl(0, 0%, 0%);
   width: 370px;
 }
 
@@ -48,19 +48,10 @@
   width: 241px;
 }
 
-.section-tesla {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 1fr 1fr 1fr;
+.tesla-main__image {
+  background-image: url(img/Tesla-Wordmark-Red-bg.png);
+  width: 100%;
 }
-
-.tesla-main__image{
-  background-image: url(img/-Wordmark-Red-bg.png);
-}
-
-/* .tesla__image {
-  position: absolute;
-} */
 
 .tesla-img {
   position: absolute;
@@ -162,6 +153,7 @@
   width: 160px;
   height: 40px;
 }
+
 
 .aside__titel {
   font-family: "Montserrat-Regular", sans-serif;
