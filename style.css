@@ -54,26 +54,18 @@
   grid-template-rows: 1fr 1fr 1fr;
 }
 
-/* .logo-tesla__background {
-  position: relative;
-  width: 100%;
+.tesla-main__image{
+  background-image: url(img/-Wordmark-Red-bg.png);
 }
 
-.logo-background-img {
-  position: relative;
-  width: 100%;
-  z-index: 2;
-}
-
-.tesla__image {
+/* .tesla__image {
   position: absolute;
-}
+} */
 
 .tesla-img {
   position: absolute;
   width: 968px;
-  z-index: 1;
-} */
+}
 
 .info__row {
   display: flex;
@@ -82,34 +74,33 @@
   align-items: center;
 }
 
-.info__row-speed{
+.info__row-speed {
   display: flex;
   margin-right: 80px;
-
 }
 
-.info__row-add{
+.info__row-add {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-self: flex-end;
 }
 
-.info__row-distance{
+.info__row-distance {
   display: flex;
   margin-right: 105px;
 }
 
-.info__row-test-drive{
+.info__row-test-drive {
   display: flex;
   margin-right: 40px;
 }
 
-.info__row-button{
+.info__row-button {
   display: flex;
 }
 
-.info__row-arrow{
+.info__row-arrow {
   display: flex;
   justify-content: center;
   align-self: flex-end;
