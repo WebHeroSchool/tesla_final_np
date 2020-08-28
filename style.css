@@ -49,13 +49,15 @@
 }
 
 .tesla-main__image {
+  display: flex;
+  justify-content: center;
   background-image: url(img/Tesla-Wordmark-Red-bg.png);
   width: 100%;
 }
 
-.tesla-img {
-  position: absolute;
+.tesla__img {
   width: 968px;
+  height: 450px;
 }
 
 .info__row {
@@ -141,6 +143,10 @@
   height: 40px;
 }
 
+.row-button_form{
+
+}
+
 .row-button__order {
   font-family: "Montserrat-Regular", sans-serif;
   font-style: normal;
@@ -152,8 +158,8 @@
   color: #e51937;
   width: 160px;
   height: 40px;
+  background-color: transparent;
 }
-
 
 .aside__titel {
   font-family: "Montserrat-Regular", sans-serif;
@@ -227,6 +233,47 @@
 }
 
 /* second section  */
+.second-main__titel{
+  font-family: "Montserrat-Regular", sans-serif;
+  font-style: normal;
+  font-size: 70px;
+  line-height: 85px;
+  color: #E51937;
+}
+
+.second-main__img{
+
+}
+
+.section__second{
+  display: flex;
+  flex-direction: row;
+}
+
+.second-aside{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 440px;
+  height: 900px;
+  left: 1000px;
+  top: 900px;
+  background: #E51937;
+}
+
+.aside__titel{
+  font-family: "Montserrat-Regular", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.aside__desc{
+  font-family: "Montserrat-Regular", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  color: #FFFFFF;
+}
 
 .button__order {
   font-family: "Montserrat-Regular", sans-serif;
