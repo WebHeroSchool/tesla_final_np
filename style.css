@@ -46,7 +46,7 @@
   width: 370px;
 }
 
-.heading__captiion {
+.heading__caption {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -153,6 +153,7 @@
 }
 
 .row-button_form {
+  
 }
 
 .row-button__order {
