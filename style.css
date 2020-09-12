@@ -1,94 +1,295 @@
-.menu__item{
-	font-family: "Montserrat-Regular", sans-serif;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 15px;
-	line-height: 18px;
-	color: #000000;
+/* header */
+
+.logo-tesla {
+  width: 166px;
 }
 
-.menu__item_red{
-	color: #E51937;
+.burger-line {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 24px;
+  height: 2px;
+  background-color: #e51937;
+  margin: 4px 0;
 }
 
-.heading__title{
-	font-family: "Montserrat", sans-serif;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 90px;
-	line-height: 110px;
-	color: #000000;
+.menu__item {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
 }
 
-.heading__captiion{
-	font-family: "Montserrat", sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 15px;
-	line-height: 18px;
-	color: #000000;
+.menu__item_red {
+  color: #e51937;
 }
 
-.info__row-value{
-	font-family: "Montserrat", sans-serif;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 20px;
-	line-height: 24px;
-	color: #000000;
+/* first section */
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 370px;
 }
 
-.info__row-number{
-	font-family: "Montserrat", sans-serif;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 35px;
-	line-height: 43px;
-	color: #000000;
+.heading__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 90px;
+  /* font-stretch: expanded; */
+  line-height: 110px;
+  color: #000000;
+  width: 370px;
 }
 
-.info__row-add{
-	font-family: "Montserrat", sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 12px;
-	line-height: 15px;
-	color: #000000;
+.heading__caption {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  /* font-stretch: expanded; */
+  line-height: 18px;
+  color: #000000;
+  width: 241px;
 }
 
-.test-drive{
-	font-family: "Montserrat", sans-serif;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 13px;
-	line-height: 16px;
-	text-transform: uppercase;
-	color: #000000;
+.tesla-main__image {
+  display: flex;
+  justify-content: center;
+  background-image: url(img/Tesla-Wordmark-Red-bg.png);
+  width: 100%;
 }
 
-.row-button__order{
-	font-family: "Montserrat", sans-serif;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 13px;
-	line-height: 16px;
-	text-align: center;
-	text-transform: uppercase;
-	color: #E51937;
+.tesla__img {
+  width: 968px;
+  height: 450px;
 }
 
-.aside__titel{
-	font-family: "Montserrat", sans-serif;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 30px;
-	line-height: 37px;
+.info__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.aside__desc{
-	font-family: "Montserrat", sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 15px;
-	line-height: 18px;
+.info__row-speed {
+  display: flex;
+  margin-right: 80px;
+}
+
+.info__row-add {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: flex-end;
+}
+
+.info__row-distance {
+  display: flex;
+  margin-right: 105px;
+}
+
+.info__row-test-drive {
+  display: flex;
+  margin-right: 40px;
+}
+
+.info__row-button {
+  display: flex;
+}
+
+.info__row-arrow {
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+}
+
+.info__row-value {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.info__row-number {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 43px;
+  color: #000000;
+}
+
+.info__row-add {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.test-drive {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.info__row-button {
+  border: 2px solid #e51937;
+  box-sizing: border-box;
+  width: 160px;
+  height: 40px;
+}
+
+.row-button_form {
+  
+}
+
+.row-button__order {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e51937;
+  width: 160px;
+  height: 40px;
+  background-color: transparent;
+}
+
+.aside__titel {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.aside__desc {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__item {
+  margin-right: 44px;
+  text-decoration: none;
+}
+
+.menu__item:nth-child(2n) {
+  margin-right: 24.86px;
+}
+
+.menu__item_red {
+  margin-right: 63.14px;
+}
+
+.menu__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__item_shop {
+  margin-right: 30px;
+}
+
+.menu__item_enter {
+  margin-right: 30px;
+}
+
+.menu__icon-burger {
+  margin-right: 60px;
+}
+
+.menu__icon-burger:hover {
+  cursor: pointer;
+}
+
+.section__first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading__captiion {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px; /*не работает шрифт*/
+}
+
+/* second section  */
+.second-main__titel {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 70px;
+  line-height: 85px;
+  color: #e51937;
+}
+
+.second-main__img {
+}
+
+.section__second {
+  display: flex;
+  flex-direction: row;
+}
+
+.second-aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 440px;
+  height: 900px;
+  left: 1000px;
+  top: 900px;
+  background: #e51937;
+}
+
+.aside__titel {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.aside__desc {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.button__order {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e51937;
 }
